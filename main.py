@@ -26,7 +26,7 @@ INLINE_SELECT = InlineKeyboardMarkup(
             InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
         ],
         [
-            InlineKeyboardButton("Join Channel🌐", url="https://t.me/telsabots")
+            InlineKeyboardButton("Join Channel🌐", url="https://t.me/SmxUpdates")
         ]
     ]
 )
@@ -68,8 +68,8 @@ async def photo_upload(bot, message):
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007"),
-                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+                    InlineKeyboardButton("Github🤩", url="hxhshs"),
+                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
                     InlineKeyboardButton("Web Preview🌐", url=generated_link)
@@ -139,7 +139,7 @@ async def animation_upload(bot, message):
             [
                 [
                     InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007"),
-                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
                     InlineKeyboardButton("Web Preview🌐", url=generated_link)
@@ -174,7 +174,7 @@ async def animation_upload_groups(bot, message):
             [
                 [
                     InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007"),
-                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
                     InlineKeyboardButton("Web Preview🌐", url=generated_link)
@@ -218,13 +218,13 @@ async def photo_upload_groups(bot, message):
         )
     except:
         await msg.edit_text(
-            "File must be less than 5mb, please try another file or <a href=https://t.me/sanilaassistant_bot>LEARN THIS BOT FIRST!</a>",
+            "File must be less than 5mb, please try another file or <a href=https://t.me/TheBiologyPmBot>LEARN THIS BOT FIRST!</a>",
             reply_markup=INLINE_SELECT,
             disable_web_page_preview=True)
     else:
         t = await msg.edit_text(generated_link, disable_web_page_preview=True)
         await t.edit_text(
-            f"Link - `{generated_link} `\n\n<a href=https://t.me/sanilaassistant_bot>Feel free to leave a feedback</a>",
+            f"Link - `{generated_link} `\n\n<a href=https://t.me/TheBiologyPmBot>Feel free to leave a feedback</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -244,7 +244,7 @@ async def video_upload_group(bot, message):
             [
                 [
                     InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007"),
-                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
                     InlineKeyboardButton("Web Preview🌐", url=generated_link)
@@ -259,7 +259,7 @@ async def video_upload_group(bot, message):
     else:
         t = await msg.edit_text(generated_link, disable_web_page_preview=True)
         await t.edit_text(
-            f"Link - `{generated_link} `\n\n<a href=https://t.me/sanilaassistant_bot>Feel free to leave a feedback</a>",
+            f"Link - `{generated_link} `\n\n<a href=https://t.me/TheBiologyPmBot>Feel free to leave a feedback</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -280,7 +280,7 @@ async def sticker_upload(bot, message):
             [
                 [
                     InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007"),
-                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
                     InlineKeyboardButton("Web Preview🌐", url=generated_link)
@@ -295,7 +295,7 @@ async def sticker_upload(bot, message):
     else:
         t = await msg.edit_text(generated_link, disable_web_page_preview=True)
         await t.edit_text(
-            f"Link - `{generated_link} `\n\n<a href=https://t.me/sanilaassistant_bot>Feel free to leave a feedback</a>",
+            f"Link - `{generated_link} `\n\n<a href=https://t.me/TheBiologyPmBot>Feel free to leave a feedback</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -315,7 +315,7 @@ async def sticker_upload_group(bot, message):
             [
                 [
                     InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007"),
-                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+                    InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
                     InlineKeyboardButton("Web Preview🌐", url=generated_link)
