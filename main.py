@@ -22,7 +22,7 @@ bot = Client(
 INLINE_SELECT = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Github🤩", url="https://github.com/sanila2007/telegraph-uploader-bot"),
+            InlineKeyboardButton("Github🤩", url="https://github.com/mirrorleechdo/Telegraphs"),
             InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
         ],
         [
@@ -34,8 +34,8 @@ INLINE_SELECT = InlineKeyboardMarkup(
 ERROR_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot"),
-            InlineKeyboardButton("Learn Bot🙂", url="https://t.me/sanilaassistant_bot")
+            InlineKeyboardButton("Report Bugs🤖", url="https://github.com/mirrorleechdo/Telegraphs"),
+            InlineKeyboardButton("Learn Bot🙂", url="https://t.me/TheBiologyPmBot")
         ]
     ]
 )
@@ -68,7 +68,7 @@ async def photo_upload(bot, message):
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Github🤩", url="hxhshs"),
+                    InlineKeyboardButton("Github🤩", url="https://github.com/mirrorleechdo/Telegraphs"),
                     InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
                 ],
                 [
