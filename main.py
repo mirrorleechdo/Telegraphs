@@ -23,7 +23,7 @@ INLINE_SELECT = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton("Github🤩", url="https://github.com/mirrorleechdo/Telegraphs"),
-            InlineKeyboardButton("Report Bugs🤖", url="https://t.me/sanilaassistant_bot")
+            InlineKeyboardButton("Report Bugs🤖", url="https://t.me/TheBiologyPmBot")
         ],
         [
             InlineKeyboardButton("Join Channel🌐", url="https://t.me/SmxUpdates")
